@@ -27,7 +27,6 @@ How to Use
 Run migration command to migrate todos table
 
 
-
 ## Command to run
    php artisan serve
 
