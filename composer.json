@@ -1,20 +1,10 @@
 {
-    "name": "ahmedctg/laravel-todocrud",
-    "description": "A simple to-do list package for Laravel to test package.",
+    "name": "ahmed/todocrud",
+    "description": "A simple to-do list package for Laravel.",
     "type": "todolist",
-    "keywords": [
-        "laravel-todocrud",
-        "laravel",
-        "php"
-    ],
-    "license": "MIT",
-    "require": {
-        "php": "^8.2",
-        "laravel/framework": "^11.0"
-    },
     "autoload": {
         "psr-4": {
-            "Ahmed\\Todolist\\": "src/"
+            "Ahmed\\Todocrud\\": "src/"
         }
     },
     "authors": [
@@ -27,10 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\\Ahmed\\Todocrud\\Providers\\TodoPackageServiceProvider"                        
+                "Ahmed\\Todocrud\\TodoPackageServiceProvider"            
             ]
         }
-    }
-	
-    
+    },
+	"minimum-stability": "dev",
+    "require": {}
 }
