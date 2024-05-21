@@ -8,7 +8,7 @@
 
 Add the provider in boostrap/provider.php into your project
 
-    Ahmed\Todocrud\Providers\TodoPackageServiceProvider::class
+    Ahmed\Todocrud\TodoPackageServiceProvider::class
 
 ## Publish views to modify
     after publishing views your can modify from ```resource/views/todocrud folder of your project```
