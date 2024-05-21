@@ -1,5 +1,5 @@
 {
-    "name": "ahmed/todocrud",
+    "name": "ahmedsohel/todocrud",
     "description": "A simple to-do list package for Laravel.",
     "type": "todolist",
     "autoload": {
