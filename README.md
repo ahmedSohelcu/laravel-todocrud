@@ -1,7 +1,7 @@
 ## Laravel todo crud
 
 ## Install
-    composer require ahmed/laravel-todocrud
+    composer require ahmedctg/laravel-todocrud
 
 
 ## Add Provider
@@ -10,15 +10,8 @@ Add the provider in boostrap/provider.php into your project
 
     Ahmed\Todocrud\Providers\TodoPackageServiceProvider::class
 
-### To install
-
-How to Use
-===============
-
-Run migration command to migrate todos table
-
-### Publish views to modify
-    after publishing views your can modify content from ```resource/views/todocrud folder of your project```
+## Publish views to modify
+    after publishing views your can modify from ```resource/views/todocrud folder of your project```
 
 ## Publish the config
     php artisan vendor:publish --tag=config
@@ -26,6 +19,13 @@ Run migration command to migrate todos table
 
 ## Publish the views
     php artisan vendor:publish --tag=views
+
+
+How to Use
+===============
+
+Run migration command to migrate todos table
+
 
 
 ## Command to run
